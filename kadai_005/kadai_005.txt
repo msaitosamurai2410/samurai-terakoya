@@ -1,0 +1,10 @@
+mkdir git_challenge
+cd git_challenge
+git init
+touch hello_world.txt
+git add hello_world.txt
+git commit -m "一回目のコミット"
+git add hello_world.txt
+git commit -m "2回目のコミット"
+git log --oneline
+git log -p hello_world.txt
